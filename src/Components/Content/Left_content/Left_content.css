@@ -1,0 +1,58 @@
+.titel {
+  font-family: var(--font-2);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 101%;
+  letter-spacing: -0.01em;
+  color: var(--color-2);
+}
+.titel span {
+  font-family: var(--font-3);
+}
+.titel .price {
+  color: var(--color-4);
+  margin-right: 10px;
+}
+.titel .close-price {
+  position: relative;
+  margin: 0px 10px;
+}
+.titel .close-price::after {
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  content: "";
+  width: 100%;
+  height: 3px;
+  background: var(--color-6);
+}
+
+.offer-list {
+  margin: 40px 0px;
+}
+.offer-list .list {
+  margin-bottom: 20px;
+}
+.offer-list .list .icon {
+  width: 48px;
+  height: 48px;
+  margin-right: 40px;
+}
+.offer-list .list .icon img {
+  width: 48px;
+  height: 48px;
+}
+.offer-list .list p {
+  font-family: var(--font-3);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  color: var(--color-2);
+  margin-bottom: 0px;
+}
+.offer-list .list p span {
+  color: var(--color-4);
+}

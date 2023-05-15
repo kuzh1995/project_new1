@@ -1,0 +1,69 @@
+header {
+  background: var(--color-2);
+}
+header .navbar-brand {
+  margin-right: 30px;
+}
+header .navbar {
+  padding: 15.9px 0px !important;
+}
+header .navbar .navbar-wrap {
+  width: 100%;
+}
+header .navbar .nav-item {
+  margin-right: 30px;
+}
+header .navbar .nav-item .nav-link {
+  display: flex;
+  align-items: center;
+}
+header .navbar .nav-item .nav-link span {
+  font-family: var(--font-2);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--color-3);
+  margin-right: 5px;
+  cursor: pointer;
+}
+header .navbar .nav-item .nav-link i {
+  color: var(--color-3);
+  font-size: 14px;
+  margin-top: 2px;
+}
+header .navbar .nav-item .nav-link:hover span {
+  color: var(--color-4);
+}
+header .navbar .nav-item .nav-link:hover i {
+  color: var(--color-4);
+}
+header .navbar .nav-right .search {
+  margin-right: 30px;
+}
+header .navbar .nav-right .search i {
+  font-size: 18px;
+}
+header .navbar .nav-right .login-link {
+  margin-right: 30px;
+  color: var(--color-3);
+  text-decoration: none;
+}
+header .navbar .nav-right .login-link:hover {
+  color: var(--color-4);
+}
+header .navbar .nav-right .btn-join {
+  background: linear-gradient(266.79deg, var(--color-5) 4.63%, var(--color-4) 100%);
+  border-radius: 52px;
+  font-family: var(--font-2);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: var(--color-2);
+  padding: 7px 30px;
+  transition: all 2s;
+}
+header .navbar .nav-right .btn-join:hover {
+  background: linear-gradient(-266.79deg, var(--color-4) 100%, var(--color-5) 4.63%);
+}
